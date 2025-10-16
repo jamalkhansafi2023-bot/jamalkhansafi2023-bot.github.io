@@ -1,0 +1,88 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+}
+
+h2{
+    margin-bottom: 0;
+    letter-spacing: 0.01rem;
+}
+
+section h2 + p{
+    text-indent: 2rem;
+}
+section h2{
+    font-weight: bold;
+}
+
+a{
+    color: rgb(255, 128, 0);
+}
+a:hover{
+    color: rgb(204, 102, 0);
+    text-decoration: none;
+}
+a:focus{
+    color: rgb(204, 102, 0);
+    text-decoration: none;
+}
+img.external-icon {
+    height: 15px;
+}
+
+nav a{
+    display: block;
+    border: 2px solid rgb(255, 128, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    
+}
