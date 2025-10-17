@@ -67,9 +67,16 @@ a:focus{
     color: rgb(204, 102, 0);
     text-decoration: none;
 }
-img.external-icon {
-    height: 15px;
+/*we wil add icon after extarnal link*/
+a[href ^= "http"]{
+  background-image: url(./external-link-52.png);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+ background-position: right center;
+ padding-right: 16px;
+ margin: 5px;   
 }
+
 
 nav a{
     display: block;
